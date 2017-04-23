@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dief/Dropbox/study-notes/c++/learn-cpp/cpp-fundamentals/classes-and-objects/main.cpp
+iostream
+-
+person.h
+/home/dief/Dropbox/study-notes/c++/learn-cpp/cpp-fundamentals/classes-and-objects/person.h
+tweeter.h
+/home/dief/Dropbox/study-notes/c++/learn-cpp/cpp-fundamentals/classes-and-objects/tweeter.h
+status.h
+/home/dief/Dropbox/study-notes/c++/learn-cpp/cpp-fundamentals/classes-and-objects/status.h
+
+/home/dief/Dropbox/study-notes/c++/learn-cpp/cpp-fundamentals/classes-and-objects/person.cpp
+person.h
+/home/dief/Dropbox/study-notes/c++/learn-cpp/cpp-fundamentals/classes-and-objects/person.h
+
+/home/dief/Dropbox/study-notes/c++/learn-cpp/cpp-fundamentals/classes-and-objects/person.h
+iostream
+-
+string
+-
+
+/home/dief/Dropbox/study-notes/c++/learn-cpp/cpp-fundamentals/classes-and-objects/status.h
+
+/home/dief/Dropbox/study-notes/c++/learn-cpp/cpp-fundamentals/classes-and-objects/tweeter.cpp
+tweeter.h
+/home/dief/Dropbox/study-notes/c++/learn-cpp/cpp-fundamentals/classes-and-objects/tweeter.h
+
+/home/dief/Dropbox/study-notes/c++/learn-cpp/cpp-fundamentals/classes-and-objects/tweeter.h
+iostream
+-
+string
+-
+person.h
+/home/dief/Dropbox/study-notes/c++/learn-cpp/cpp-fundamentals/classes-and-objects/person.h
+
