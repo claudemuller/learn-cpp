@@ -1,3 +1,0 @@
-/home/dief/Dropbox/study-notes/c++/learn-cpp/cpp-fundamentals/classes-and-objects/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/dief/Dropbox/study-notes/c++/learn-cpp/cpp-fundamentals/classes-and-objects/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/dief/Dropbox/study-notes/c++/learn-cpp/cpp-fundamentals/classes-and-objects/cmake-build-debug/CMakeFiles/classes-and-objects.dir
