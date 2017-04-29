@@ -8,6 +8,7 @@ using std::endl;
 
 int main(int argc, char* argv[]) {
     Person p1("Kate", "Gregory", 123);
+    Person p2("Kate", "Gregory", 123);
     {
         Tweeter t1("Claude", "Mŭller", 456, "@something");
         cout << "t1: " << t1.getName() << " " << t1.getNumber() << endl;
@@ -17,6 +18,13 @@ int main(int argc, char* argv[]) {
     cout << "p1: " << p1.getName() << " " << p1.getNumber() << endl;
 
     Status s = Pending;
+
+    // Comparison overloading
+    // Class operator < overloading
+    cout << (p1 < p2) << endl;
+    cout << (p1 < 300) << endl;
+    // Free function operator < overloading
+    cout << (300 < p1) << endl;
 
     return 0;
 }

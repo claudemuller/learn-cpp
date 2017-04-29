@@ -16,6 +16,12 @@ public:
     std::string getName();
     int getNumber() { return arbitraryNumber; }
     void setNumber(int number) { arbitraryNumber = number; }
+    bool operator<(Person &p);
+    bool operator<(int i);
+    // Give access to class but does not make it a member
+    friend bool operator<(int i, Person &p);
 };
+
+bool operator<(int i, Person &p);
 
 #endif //_PERSON_H
