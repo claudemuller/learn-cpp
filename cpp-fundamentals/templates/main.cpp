@@ -1,5 +1,6 @@
 #include <iostream>
 #include "accumulator.h"
+#include "person.h"
 
 using namespace std;
 
@@ -13,6 +14,14 @@ int main(int argc, char* argv[]) {
     strings += "Hello ";
     strings += "World";
     cout << strings.getTotal() << endl;
+
+//    Person start("", "", 0);
+    Accumulator<Person> people(0);
+    Person p1("John", "Doe", 123);
+    Person p2("Piet", "Snot", 456);
+    people += p1;
+    people += p2;
+    cout << people.getTotal() << endl;
 
     return 0;
 }

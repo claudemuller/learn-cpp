@@ -3,5 +3,5 @@ project(templates)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp accumulator.h accumulator.cpp)
+set(SOURCE_FILES main.cpp accumulator.h person.h person.cpp)
 add_executable(templates ${SOURCE_FILES})
