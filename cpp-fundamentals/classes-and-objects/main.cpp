@@ -6,6 +6,11 @@
 using std::cout;
 using std::endl;
 
+template <class T>
+T max(T &t1, T &t2) {
+    return t1 < t2 ? t2 : t1;
+}
+
 int main(int argc, char* argv[]) {
     Person p1("Kate", "Gregory", 123);
     Person p2("Kate", "Gregory", 123);
@@ -25,6 +30,13 @@ int main(int argc, char* argv[]) {
     cout << (p1 < 300) << endl;
     // Free function operator < overloading
     cout << (300 < p1) << endl;
+
+    int i = 1,
+        j = 2;
+    max(i, j);
+    double k = 22,
+        l = 20.3;
+    max<double>(k, l);
 
     return 0;
 }
