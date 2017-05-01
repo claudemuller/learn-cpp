@@ -3,5 +3,5 @@ project(pointers)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp person.h person.cpp)
+set(SOURCE_FILES main.cpp person.h person.cpp resource.cpp resource.cpp memory.cpp)
 add_executable(pointers ${SOURCE_FILES})
